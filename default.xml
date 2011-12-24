@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="exdroid"
-           fetch="git@github.com:allwinnerwk/" />
+           fetch=".." />
   <default revision="ics-exdroid"
            remote="exdroid"
            sync-j="4" />
@@ -29,7 +29,6 @@
   <project path="device/softwinner/crane-common" name="device_softwinner_crane-common" />
   <project path="device/softwinner/crane-aino" name="device_softwinner_crane-aino" />
   <project path="device/softwinner/crane-evb" name="device_softwinner_crane-evb" />
-  <project path="device/softwinner/crane-m802h6" name="device_softwinner_crane-m802h6" />
   <project path="docs/source.android.com" name="platform_docs_source.android.com" />
   <project path="external/android-mock" name="platform_external_android-mock" />
   <project path="external/antlr" name="platform_external_antlr" />
