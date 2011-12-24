@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="lichee"
+           fetch=".." />
+  <default revision="lichee-dev"
+           remote="lichee"
+           sync-j="4" />
+
+  <project path="buildroot" name="lichee_buildroot">
+    <copyfile src="scripts/top_build.sh" dest="build.sh" />
+    <copyfile src="README" dest="README" />
+  </project>
+  <project path="linux-3.0" name="lichee_linux-3.0" />
+  <project path="u-boot" name="lichee_u-boot" />
+  <project path="tools" name="lichee_tools" />
+
+</manifest>
