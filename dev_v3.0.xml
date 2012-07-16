@@ -3,16 +3,17 @@
 
   <remote  name="lichee"
            fetch=".." />
-  <default revision="lichee-dev"
+  <default revision="master"
            remote="lichee"
            sync-j="4" />
 
-  <project path="buildroot" name="lichee_buildroot">
+  <project path="buildroot" name="allwinner-ics/lichee_buildroot">
     <copyfile src="scripts/top_build.sh" dest="build.sh" />
     <copyfile src="README" dest="README" />
   </project>
-  <project path="linux-3.0" name="lichee_linux-3.0" />
-  <project path="u-boot" name="lichee_u-boot" />
-  <project path="tools" name="lichee_tools" />
+  <project path="linux-3.0" name="allwinner-ics/lichee_linux-3.0" />
+  <project path="u-boot" name="allwinner-ics/lichee_u-boot" />
+  <project path="tools" name="allwinner-ics/lichee_tools" />
 
 </manifest>
+
